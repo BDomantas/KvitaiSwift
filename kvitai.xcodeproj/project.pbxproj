@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94F95AF22861DDCD00724A5E /* kvitaiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F95AF12861DDCD00724A5E /* kvitaiApp.swift */; };
+		94F95AF42861DDCD00724A5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F95AF32861DDCD00724A5E /* ContentView.swift */; };
+		94F95AF62861DDCF00724A5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F95AF52861DDCF00724A5E /* Assets.xcassets */; };
+		94F95AF92861DDCF00724A5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F95AF82861DDCF00724A5E /* Preview Assets.xcassets */; };
+		94F95B032861DDD000724A5E /* kvitaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F95B022861DDD000724A5E /* kvitaiTests.swift */; };
+		94F95B0D2861DDD000724A5E /* kvitaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F95B0C2861DDD000724A5E /* kvitaiUITests.swift */; };
+		94F95B0F2861DDD000724A5E /* kvitaiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F95B0E2861DDD000724A5E /* kvitaiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94F95AFF2861DDD000724A5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94F95AE62861DDCD00724A5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94F95AED2861DDCD00724A5E;
+			remoteInfo = kvitai;
+		};
+		94F95B092861DDD000724A5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94F95AE62861DDCD00724A5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94F95AED2861DDCD00724A5E;
+			remoteInfo = kvitai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94F95AEE2861DDCD00724A5E /* kvitai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kvitai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F95AF12861DDCD00724A5E /* kvitaiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kvitaiApp.swift; sourceTree = "<group>"; };
+		94F95AF32861DDCD00724A5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		94F95AF52861DDCF00724A5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94F95AF82861DDCF00724A5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94F95AFE2861DDD000724A5E /* kvitaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kvitaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F95B022861DDD000724A5E /* kvitaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kvitaiTests.swift; sourceTree = "<group>"; };
+		94F95B082861DDD000724A5E /* kvitaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kvitaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F95B0C2861DDD000724A5E /* kvitaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kvitaiUITests.swift; sourceTree = "<group>"; };
+		94F95B0E2861DDD000724A5E /* kvitaiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kvitaiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94F95AEB2861DDCD00724A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F95AFB2861DDD000724A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F95B052861DDD000724A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94F95AE52861DDCD00724A5E = {
+			isa = PBXGroup;
+			children = (
+				94F95AF02861DDCD00724A5E /* kvitai */,
+				94F95B012861DDD000724A5E /* kvitaiTests */,
+				94F95B0B2861DDD000724A5E /* kvitaiUITests */,
+				94F95AEF2861DDCD00724A5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94F95AEF2861DDCD00724A5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94F95AEE2861DDCD00724A5E /* kvitai.app */,
+				94F95AFE2861DDD000724A5E /* kvitaiTests.xctest */,
+				94F95B082861DDD000724A5E /* kvitaiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94F95AF02861DDCD00724A5E /* kvitai */ = {
+			isa = PBXGroup;
+			children = (
+				94F95AF12861DDCD00724A5E /* kvitaiApp.swift */,
+				94F95AF32861DDCD00724A5E /* ContentView.swift */,
+				94F95AF52861DDCF00724A5E /* Assets.xcassets */,
+				94F95AF72861DDCF00724A5E /* Preview Content */,
+			);
+			path = kvitai;
+			sourceTree = "<group>";
+		};
+		94F95AF72861DDCF00724A5E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				94F95AF82861DDCF00724A5E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		94F95B012861DDD000724A5E /* kvitaiTests */ = {
+			isa = PBXGroup;
+			children = (
+				94F95B022861DDD000724A5E /* kvitaiTests.swift */,
+			);
+			path = kvitaiTests;
+			sourceTree = "<group>";
+		};
+		94F95B0B2861DDD000724A5E /* kvitaiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94F95B0C2861DDD000724A5E /* kvitaiUITests.swift */,
+				94F95B0E2861DDD000724A5E /* kvitaiUITestsLaunchTests.swift */,
+			);
+			path = kvitaiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94F95AED2861DDCD00724A5E /* kvitai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94F95B122861DDD000724A5E /* Build configuration list for PBXNativeTarget "kvitai" */;
+			buildPhases = (
+				94F95AEA2861DDCD00724A5E /* Sources */,
+				94F95AEB2861DDCD00724A5E /* Frameworks */,
+				94F95AEC2861DDCD00724A5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kvitai;
+			productName = kvitai;
+			productReference = 94F95AEE2861DDCD00724A5E /* kvitai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94F95AFD2861DDD000724A5E /* kvitaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94F95B152861DDD000724A5E /* Build configuration list for PBXNativeTarget "kvitaiTests" */;
+			buildPhases = (
+				94F95AFA2861DDD000724A5E /* Sources */,
+				94F95AFB2861DDD000724A5E /* Frameworks */,
+				94F95AFC2861DDD000724A5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94F95B002861DDD000724A5E /* PBXTargetDependency */,
+			);
+			name = kvitaiTests;
+			productName = kvitaiTests;
+			productReference = 94F95AFE2861DDD000724A5E /* kvitaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94F95B072861DDD000724A5E /* kvitaiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94F95B182861DDD000724A5E /* Build configuration list for PBXNativeTarget "kvitaiUITests" */;
+			buildPhases = (
+				94F95B042861DDD000724A5E /* Sources */,
+				94F95B052861DDD000724A5E /* Frameworks */,
+				94F95B062861DDD000724A5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94F95B0A2861DDD000724A5E /* PBXTargetDependency */,
+			);
+			name = kvitaiUITests;
+			productName = kvitaiUITests;
+			productReference = 94F95B082861DDD000724A5E /* kvitaiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94F95AE62861DDCD00724A5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					94F95AED2861DDCD00724A5E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					94F95AFD2861DDD000724A5E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 94F95AED2861DDCD00724A5E;
+					};
+					94F95B072861DDD000724A5E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 94F95AED2861DDCD00724A5E;
+					};
+				};
+			};
+			buildConfigurationList = 94F95AE92861DDCD00724A5E /* Build configuration list for PBXProject "kvitai" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94F95AE52861DDCD00724A5E;
+			productRefGroup = 94F95AEF2861DDCD00724A5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94F95AED2861DDCD00724A5E /* kvitai */,
+				94F95AFD2861DDD000724A5E /* kvitaiTests */,
+				94F95B072861DDD000724A5E /* kvitaiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94F95AEC2861DDCD00724A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F95AF92861DDCF00724A5E /* Preview Assets.xcassets in Resources */,
+				94F95AF62861DDCF00724A5E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F95AFC2861DDD000724A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F95B062861DDD000724A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94F95AEA2861DDCD00724A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F95AF42861DDCD00724A5E /* ContentView.swift in Sources */,
+				94F95AF22861DDCD00724A5E /* kvitaiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F95AFA2861DDD000724A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F95B032861DDD000724A5E /* kvitaiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F95B042861DDD000724A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F95B0F2861DDD000724A5E /* kvitaiUITestsLaunchTests.swift in Sources */,
+				94F95B0D2861DDD000724A5E /* kvitaiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94F95B002861DDD000724A5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94F95AED2861DDCD00724A5E /* kvitai */;
+			targetProxy = 94F95AFF2861DDD000724A5E /* PBXContainerItemProxy */;
+		};
+		94F95B0A2861DDD000724A5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94F95AED2861DDCD00724A5E /* kvitai */;
+			targetProxy = 94F95B092861DDD000724A5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		94F95B102861DDD000724A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94F95B112861DDD000724A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94F95B132861DDD000724A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kvitai/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = domantas.kvitai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94F95B142861DDD000724A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kvitai/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = domantas.kvitai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94F95B162861DDD000724A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = domantas.kvitaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kvitai.app/kvitai";
+			};
+			name = Debug;
+		};
+		94F95B172861DDD000724A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = domantas.kvitaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kvitai.app/kvitai";
+			};
+			name = Release;
+		};
+		94F95B192861DDD000724A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = domantas.kvitaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kvitai;
+			};
+			name = Debug;
+		};
+		94F95B1A2861DDD000724A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = domantas.kvitaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kvitai;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94F95AE92861DDCD00724A5E /* Build configuration list for PBXProject "kvitai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F95B102861DDD000724A5E /* Debug */,
+				94F95B112861DDD000724A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94F95B122861DDD000724A5E /* Build configuration list for PBXNativeTarget "kvitai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F95B132861DDD000724A5E /* Debug */,
+				94F95B142861DDD000724A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94F95B152861DDD000724A5E /* Build configuration list for PBXNativeTarget "kvitaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F95B162861DDD000724A5E /* Debug */,
+				94F95B172861DDD000724A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94F95B182861DDD000724A5E /* Build configuration list for PBXNativeTarget "kvitaiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F95B192861DDD000724A5E /* Debug */,
+				94F95B1A2861DDD000724A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94F95AE62861DDCD00724A5E /* Project object */;
+}
