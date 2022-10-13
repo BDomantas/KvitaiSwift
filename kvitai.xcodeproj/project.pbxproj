@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94F2015F2870BDEC00AD54F7 /* ScanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F2015E2870BDEC00AD54F7 /* ScanData.swift */; };
+		94F201612870C02D00AD54F7 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F201602870C02D00AD54F7 /* ScannerView.swift */; };
+		94F201632870C1FC00AD54F7 /* TextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F201622870C1FC00AD54F7 /* TextRecognizer.swift */; };
+		94F201662871FA1900AD54F7 /* Receipts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94F201642871FA1800AD54F7 /* Receipts.xcdatamodeld */; };
+		94F918A428720E1A001EFDB2 /* ReceiptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F918A328720E1A001EFDB2 /* ReceiptView.swift */; };
+		94F918A6287219EC001EFDB2 /* ShopLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F918A5287219EC001EFDB2 /* ShopLogo.swift */; };
 		94F95AF22861DDCD00724A5E /* kvitaiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F95AF12861DDCD00724A5E /* kvitaiApp.swift */; };
 		94F95AF42861DDCD00724A5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F95AF32861DDCD00724A5E /* ContentView.swift */; };
 		94F95AF62861DDCF00724A5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F95AF52861DDCF00724A5E /* Assets.xcassets */; };
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		94F2015E2870BDEC00AD54F7 /* ScanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanData.swift; sourceTree = "<group>"; };
+		94F201602870C02D00AD54F7 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		94F201622870C1FC00AD54F7 /* TextRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizer.swift; sourceTree = "<group>"; };
+		94F201652871FA1900AD54F7 /* Receipts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Receipts.xcdatamodel; sourceTree = "<group>"; };
+		94F918A328720E1A001EFDB2 /* ReceiptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptView.swift; sourceTree = "<group>"; };
+		94F918A5287219EC001EFDB2 /* ShopLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopLogo.swift; sourceTree = "<group>"; };
 		94F95AEE2861DDCD00724A5E /* kvitai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kvitai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F95AF12861DDCD00724A5E /* kvitaiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kvitaiApp.swift; sourceTree = "<group>"; };
 		94F95AF32861DDCD00724A5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,8 +108,14 @@
 			children = (
 				94F95AF12861DDCD00724A5E /* kvitaiApp.swift */,
 				94F95AF32861DDCD00724A5E /* ContentView.swift */,
+				94F2015E2870BDEC00AD54F7 /* ScanData.swift */,
 				94F95AF52861DDCF00724A5E /* Assets.xcassets */,
 				94F95AF72861DDCF00724A5E /* Preview Content */,
+				94F201602870C02D00AD54F7 /* ScannerView.swift */,
+				94F201622870C1FC00AD54F7 /* TextRecognizer.swift */,
+				94F201642871FA1800AD54F7 /* Receipts.xcdatamodeld */,
+				94F918A328720E1A001EFDB2 /* ReceiptView.swift */,
+				94F918A5287219EC001EFDB2 /* ShopLogo.swift */,
 			);
 			path = kvitai;
 			sourceTree = "<group>";
@@ -257,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94F201662871FA1900AD54F7 /* Receipts.xcdatamodeld in Sources */,
 				94F95AF42861DDCD00724A5E /* ContentView.swift in Sources */,
+				94F201612870C02D00AD54F7 /* ScannerView.swift in Sources */,
+				94F201632870C1FC00AD54F7 /* TextRecognizer.swift in Sources */,
+				94F918A6287219EC001EFDB2 /* ShopLogo.swift in Sources */,
+				94F918A428720E1A001EFDB2 /* ReceiptView.swift in Sources */,
 				94F95AF22861DDCD00724A5E /* kvitaiApp.swift in Sources */,
+				94F2015F2870BDEC00AD54F7 /* ScanData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,8 +441,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"kvitai/Preview Content\"";
+				DEVELOPMENT_TEAM = 67R9U8Q3DB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) requires camera to scan receipts";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -445,8 +471,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"kvitai/Preview Content\"";
+				DEVELOPMENT_TEAM = 67R9U8Q3DB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) requires camera to scan receipts";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -577,6 +605,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		94F201642871FA1800AD54F7 /* Receipts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				94F201652871FA1900AD54F7 /* Receipts.xcdatamodel */,
+			);
+			currentVersion = 94F201652871FA1900AD54F7 /* Receipts.xcdatamodel */;
+			path = Receipts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 94F95AE62861DDCD00724A5E /* Project object */;
 }
